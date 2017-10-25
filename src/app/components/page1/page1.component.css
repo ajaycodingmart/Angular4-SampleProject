@@ -1,0 +1,22 @@
+.head-card{
+	margin: -8px;
+    background: #e91e63;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.text-center{
+	text-align: center;
+}
+.btnAlignLeft{
+	float: left;
+}	
+.btnAlignRight{
+	float: right;
+}
+.centerCard{
+	margin-top: 30vh;
+	background-color: #2436d0;
+	box-shadow: 1px 1px 10px 0px;
+	color: white;	
+}

@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+.main{
+	width: 400px;
+	margin: 0 auto;
+}
+*{
+	font-family: 'Indie Flower', cursive;
+}
+.d-iblock{
+	display: inline-block;
+}
+.mat-button, .mat-fab, .mat-icon-button, .mat-mini-fab, .mat-raised-button{
+	font-size: 18px;
+}
