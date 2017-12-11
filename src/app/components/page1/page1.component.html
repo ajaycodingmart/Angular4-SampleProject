@@ -2,7 +2,8 @@
 	<button class="d-iblock btnAlignLeft" mat-button  routerLink="">Back</button>
 	<h2 class="d-iblock" style="margin: 0">This page injects countries service</h2>
 </mat-card>
-<div *ngIf="isPull">
+<section *ngIf="isPull">
+	<p>There are <label> {{countryCount}} </label>Countries in total</p>
 	<mat-card  style="margin: 20px;" *ngFor="let response of responseStore">
 		<h3>Country Name : {{response.countryName}}</h3>
 		<h4>Capital :  {{response.capital}}</h4>
@@ -10,7 +11,7 @@
 		<h4>Area(Sq.km) : {{response.areaInSqKm}}</h4>
 		<h4>Population : {{response.population}}</h4>
 	</mat-card>
-</div>
+</section>
 <mat-card *ngIf="!isPull" class="main text-center centerCard">
 	<h3>Hit the button to pull the data </h3>
 	<button mat-raised-button color="primary" (click)="pullFromService()">Pull</button>
